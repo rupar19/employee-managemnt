@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import EmployeeDetail from './components/EmployeeDetail';
-import HrDetail from './components/HrDetail';
-import ManagerDetail from './components/ManagerDetail';
+// import EmployeeDetail from './components/EmployeeDetail';
+// import HrDetail from './components/HrDetail';
+// import ManagerDetail from './components/ManagerDetail';
+//import Lifecycle from './components/Lifecycle'
+//import ParentChild from './components/ParentChild';
+import HandlingEvents from './components/HandlingEvents';
 
 // function Clock() {
 
@@ -16,20 +19,33 @@ import ManagerDetail from './components/ManagerDetail';
 
 // }
 
-setInterval(()=>{
-    new Date().toTimeString()
-    ReactDOM.render(
+// function userName(user) {
+//     return user.firstName + " " + user.lastName;
+// }
 
-        <div>
-            {/* <Clock /><br></br> */}
-            <EmployeeDetail name="Rupa" />
-            <HrDetail />
-            <ManagerDetail />
-    
-        </div>, document.getElementById("root"));
+// const user = {
+//     firstName: "Rupa",
+//     lastName: "Roy"
+// };
 
-},1000)
-    
+// const fullName = (
+//     <div>
+//         <h1> Hello ,{userName(user)}! </h1>
+//         <br />
+//     </div>
+
+// )
+
+
+ReactDOM.render(<HandlingEvents/>, document.getElementById("root"));
+
+
+
+
+
+
+
+
 
 
 
