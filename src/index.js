@@ -5,7 +5,12 @@ import ReactDOM from 'react-dom';
 // import ManagerDetail from './components/ManagerDetail';
 //import Lifecycle from './components/Lifecycle'
 //import ParentChild from './components/ParentChild';
-import HandlingEvents from './components/HandlingEvents';
+//import HandlingEvents from './components/HandlingEvents';
+//import ToggleButton from './components/ToggleButton';
+//import NameForm from './components/NameForm';
+//import Iterations from './components/Iterations';
+//import StudentIteration from './components/studentIteration';
+import LoginComponent from './components/LoginComponent';
 
 // function Clock() {
 
@@ -37,7 +42,11 @@ import HandlingEvents from './components/HandlingEvents';
 // )
 
 
-ReactDOM.render(<HandlingEvents/>, document.getElementById("root"));
+ReactDOM.render(<LoginComponent />,document.getElementById("root"));
+
+
+
+
 
 
 
