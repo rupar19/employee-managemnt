@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom';
 //import NameForm from './components/NameForm';
 //import Iterations from './components/Iterations';
 //import StudentIteration from './components/studentIteration';
-import LoginComponent from './components/LoginComponent';
+//import LoginComponent from './components/LoginComponent';
+import SinglePageComponent from './components/SinglePageComponent';
 
 // function Clock() {
 
@@ -42,7 +43,7 @@ import LoginComponent from './components/LoginComponent';
 // )
 
 
-ReactDOM.render(<LoginComponent />,document.getElementById("root"));
+ReactDOM.render(<SinglePageComponent  />,document.getElementById("root"));
 
 
 
