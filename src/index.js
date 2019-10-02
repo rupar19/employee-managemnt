@@ -1,17 +1,85 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import EmployeeDetail from './components/EmployeeDetail';
-// import HrDetail from './components/HrDetail';
-// import ManagerDetail from './components/ManagerDetail';
-//import Lifecycle from './components/Lifecycle'
-//import ParentChild from './components/ParentChild';
-//import HandlingEvents from './components/HandlingEvents';
-//import ToggleButton from './components/ToggleButton';
-//import NameForm from './components/NameForm';
-//import Iterations from './components/Iterations';
-//import StudentIteration from './components/studentIteration';
-//import LoginComponent from './components/LoginComponent';
-import SinglePageComponent from './components/SinglePageComponent';
+//import higherOrderFunction from './components/higherOrderComponent';
+//import highOrderFunction from './components/higherOrderComponentPractise';
+//import FormFunction from './components/formFunctions';
+//import employeeDetail from './components/hookComponent';
+import ApplicationComponent from './components/shallowRendering';
+// class GeneralDept extends React.Component {
+//     render() {
+//         return (
+//             <>
+//                 <b> Name : {this.props.stdData.name} </b>
+//                 <br />
+//                 <b> Subject : {this.props.stdData.subject}</b>
+//             </>
+//         )
+//     }
+// }
+
+// class GradeDept extends React.Component {
+//     constructor() {
+//         super();
+//         this.state = {
+//             class: "Year 12"
+//         }
+//     }
+//     render() {
+//         return (
+//             <>
+//                 <b> Grade : {this.props.stdData.grade} </b> <br />
+//                 <b>Class : {this.state.class}</b>
+//             </>
+//         )
+//     }
+// }
+
+// class Address extends React.Component {
+//     render() {
+//         return (
+//             <>
+//                 Flat Number :{this.props.address.flatNo} <br />
+//                 Road Name: {this.props.address.road} <br />
+
+//             </>
+//         )
+//     }
+// }
+
+// class PostalAddress extends React.Component {
+//     render() {
+//         return (
+//             <>
+//                 Zip Code :{this.props.address.zip}<br />
+//                 City : {this.props.address.city} <br />
+//                 Borough : {this.props.address.borough} <br />
+//             </>
+//         )
+//     }
+// }
+
+// var ShowAddress = highOrderFunction(Address, PostalAddress);
+
+// var FirstComponent = higherOrderFunction(GeneralDept, GradeDept)
+
+ReactDOM.render(<ApplicationComponent  />, document.getElementById("root"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function Clock() {
 
@@ -43,7 +111,7 @@ import SinglePageComponent from './components/SinglePageComponent';
 // )
 
 
-ReactDOM.render(<SinglePageComponent  />,document.getElementById("root"));
+
 
 
 

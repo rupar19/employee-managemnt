@@ -5,6 +5,7 @@ export default class ManagerDetail extends React.Component {
         super();
         this.state = {};
 
+        
         setInterval(()=>{
             this.setState({name: "RR",desig: "Manager",dept: "IT"})
         },2000)
